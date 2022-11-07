@@ -16,6 +16,7 @@ function HomePage() {
                 display: "flex",
                 flexDirection: "column",
                 flex: 1,
+                overflowX: "hidden",
                 // backgroundColor: "red",
             }}>
                 <Menu />
