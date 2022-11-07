@@ -12,7 +12,12 @@ function HomePage() {
     return (
         <>
             <CSSReset/>
-            <div style={estilosDaHomePage}>
+            <div style={{
+                display: "flex",
+                flexDirection: "column",
+                flex: 1,
+                // backgroundColor: "red",
+            }}>
                 <Menu />
                 <Header />
                 <Timeline playlists={config.playlists}>
